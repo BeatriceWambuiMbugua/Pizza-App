@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #F4E409;
+    background-color: #020402;
 }
 .landing-text{
     font-weight: bolder;
@@ -23,6 +23,10 @@ body{
     background-size: cover;
     background-repeat: center;
     background-repeat: no-repeat;  
+}
+.h-buttons button{
+    border-radius: 40px;
+    color: black;
 }
 .overlay{
     height: 100%;
@@ -51,4 +55,19 @@ a{
 }
 .txt-big{
     font-size: 50px;
+}
+#menu{
+    padding-top: 20px;
+}
+.menu-btn{
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #020402;
+}
+figure img{
+    height: 260px;
+    width: 260px;
+}
+.menu{
+    background-color: #020402;
 }
