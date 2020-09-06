@@ -9,14 +9,46 @@ body{
     overflow-x: hidden;
     background-color: #F4E409;
 }
-.landing-text h1{
+.landing-text{
     font-weight: bolder;
     font-style: italic;
     font-size: 50px;
+    margin-top: 10%;
 }
-.landing-text h2{
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
+#push{
+    padding-top: 5%;
+}
+.landing{
+    background-image: url("../images/background\ image.jpeg");
+    background-size: cover;
+    background-repeat: center;
+    background-repeat: no-repeat;  
+}
+.overlay{
+    height: 100%;
+}
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.chef-image {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 130px;
+    height: 400px;
+    width: 400px;
+}
+.welcome{
+    background-color: #c36f09;
+    padding-top: 30px;
+}
+.welcome-txt{
+    margin-top: 160px;
+}
+.txt{
+    font-size:23px;
+}
+.txt-big{
+    font-size: 50px;
 }

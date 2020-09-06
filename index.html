@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/wickedcss.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css">
@@ -14,14 +15,50 @@
 </head>
 <body>
     <!-- create a navigation bar using flexbox -->
+<!-- Landing Page -->
     <div class="landing">
         <div class="overlay">
             <div id="push"></div>
             <div class="landing-text">
-                <h1 class="text-black text-center"><span class="pizz">Pizzaara</span></h1>
-                <h2 class="text-black text-center">No one outpizza's the Pizzaara</h2>
+                <h1 class="text-white text-center"><span class="pizz">Pizzaara</span></h1>
+                <h2 class="text-white text-center">No one outpizza's the Pizzaara</h2>
+            </div>
+            <div class="h-buttons text-center">
+                <a href="#welcome">
+                    <button class="btn bg-info floater infinite delay-2s">Welcome</button>
+                </a>
+                <div class="socials">
+                    <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
+                    <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
+                    <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
+                    <a href=""><span class="fab fa-instagram icon_instagram"></span></a>
+                    <a href=""><span class="fab fa-snapchat icon_snapchat"></span></a>
+                </div>
+            </div>  
+        </div>
+    </div>
+<!-- End of Landing page -->
+
+<!-- Welcome Section -->
+<div class="welcome" id="welcome">
+    <br>
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/chef cartoon.jpg" alt="chef" class="chef-image">
+            </div>
+            <div class="col-md-6 welcome-txt">
+                <h1 class="text-center txt txt-big">Benvenuto <span class="pizz">Pizzaara!</span></h1>
+                <p class="text-center txt">Everyone needs love and pizza!</p>
+                <p class="text-center txt">Order your pizza for instant delivery at your convenient location.</p>
+                <a href="#menus">
+                    <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
+                </a>
             </div>
         </div>
     </div>
+</div>
+<!-- Pizza app content -->
+
 </body>
 </html>
