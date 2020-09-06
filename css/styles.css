@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: PT serif;
 }
 body{
     margin: 0;
@@ -12,13 +12,11 @@ body{
 .landing-text h1{
     font-weight: bolder;
     font-style: italic;
-    font-family: PT serif;
     font-size: 50px;
 }
 .landing-text h2{
     font-weight: bolder;
     font-style: italic;
-    font-family: PT serif;
     font-size: 20px;
     color: black;
 }
