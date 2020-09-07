@@ -383,5 +383,14 @@ $(function(){
         + newOrder.t + "<br>" + "Number of pizza's : "
         + newOrder.n + "<br>" + "Total Price : "
         + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '20px');
+
+        $(".deliver").click(function(){
+            $('.summary').slideUp();
+            $('#list').slideUp();
+            $('.summary').text("Provide location details").slideDown();
+            $('.deliver').hide(1000);
+            $('.delivernot').hide(1000);
+            $('.cdata-overlay').slideDown();
+        });
     });
 });
