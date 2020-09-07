@@ -392,5 +392,8 @@ $(function(){
             $('.delivernot').hide(1000);
             $('.cdata-overlay').slideDown();
         });
+        $('.delivernot').click(function(){
+
+        });
     });
 });
