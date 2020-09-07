@@ -18,6 +18,7 @@ body{
 #push{
     padding-top: 5%;
 }
+
 .landing{
     background-image: url("../images/background\ image.jpeg");
     background-size: cover;
@@ -27,6 +28,13 @@ body{
 .h-buttons button{
     border-radius: 40px;
     color: black;
+}
+.h-buttons{
+    margin-top: 90px;
+}
+.fab{
+    padding: 20px;
+    margin: 60px 15px 0 15px;
 }
 .overlay{
     height: 100%;
@@ -70,10 +78,106 @@ figure img{
 }
 .menu{
     background-color: #020402;
+    background-image: url("../images/wooden\ background.jpeg");
+    padding: 0;
+    margin-top: -20px;
+}
+.menu-overlay{
+    height: inherit;
+    width: inherit;
 }
 #order-pizza{
     color: white;
+    padding: 20px 50px 20px 50px;
+}
+.order-overlay{
+    height: inherit;
+    padding: 20px;
+    border-radius: 20px;
+}
+.checkout{
+    border-radius: 20px;
+    margin-top:20px;
 }
 .orders{
     background-color: #EEBA0B;
+}
+.order-summary{
+    color: white;
+}
+.order-summary h2{
+    font-style: italic;
+    font-size: 20px;
+}
+.order-summary h1, .summary{
+    color: white;
+    margin-top: 30px;
+}
+.contacts{
+    background-image: url("../images/pizza\ with\ extra\ cheese.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    color: black;
+}
+.contact-overlay{
+    height: inherit;
+}
+.contacts h1{
+    color: black;
+}
+h4{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+}
+input[type="email"]{
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+.click-me{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.get-pizza {
+    margin-top: 40px;
+}
+.contact {
+    padding-top: 20px;
+}
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver, .delivernot {
+    margin: 10px;
 }
