@@ -3,6 +3,21 @@
     scroll-behavior: smooth;
     font-family: PT serif;
 }
+.nav{
+    display: flex;
+    align-items: center;
+}
+.content, .right{
+    flex: 1;
+}
+.right{
+    text-align: right;
+}
+.item{
+    font-size: 20px;
+    padding: 16px;
+    display: inline-block;
+}
 body{
     margin: 0;
     padding: 0;
