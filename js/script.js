@@ -368,6 +368,8 @@ $(function(){
                 totalPrice = totalPrice + 180;
                 break;
         };
+        let newOrder = order(flavour, size, crust, topping, number, totalPrice);
+        console.log (newOrder);
 
 
     });
