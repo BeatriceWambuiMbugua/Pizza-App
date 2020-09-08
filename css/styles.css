@@ -145,6 +145,7 @@ h4{
     margin: 0px;
     padding: 0px;
     letter-spacing: 1px;
+    line-height: 40px;
 }
 input[type="email"]{
     background: transparent;
