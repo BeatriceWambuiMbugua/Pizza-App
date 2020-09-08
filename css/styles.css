@@ -196,3 +196,20 @@ input[type="email"]{
 .deliver, .delivernot {
     margin: 10px;
 }
+.header{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.header h5{
+    font-size: 40px;
+    font-family: PT serif;
+}
+.sidebar img{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.sidebar p{
+    color: white;
+    margin-left: 10px;
+}
