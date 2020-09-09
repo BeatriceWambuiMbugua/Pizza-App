@@ -391,11 +391,21 @@ $(function(){
             $('.deliver').hide(1000);
             $('.delivernot').hide(1000);
             $('.cdata-overlay').slideDown();
+            alert('Your Delivery is on the Way. Thank you for choosing Pizzaara.')
+            
         });
         $('.delivernot').click(function(){
+            alert('Thank You for placing your order with Pizzaara, give us fifteen minutes for it to be ready.')
         });
+        $(document).ready(function(){
+            $
+        });
+        $('.click-me').click(function(){
+            alert('Thankyou for your subscription')
+        })
+
+       
         $(function(){
             $.scrollify.move('#sum-order');
-
         });
 });
